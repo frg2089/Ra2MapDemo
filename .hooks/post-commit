@@ -1,0 +1,11 @@
+#! /bin/bash
+./inime.exe merge
+
+git update-index --assume-unchanged *.map
+git update-index --assume-unchanged *.map.IsoMapPack5
+git update-index --assume-unchanged *.map.OverlayDataPack
+git update-index --assume-unchanged *.map.OverlayPack
+
+rm -rf *.map.IsoMapPack5
+rm -rf *.map.OverlayDataPack
+rm -rf *.map.OverlayPack

@@ -1,0 +1,5 @@
+*.IsoMapPack5 binary
+*.OverlayDataPack binary
+*.OverlayPack binary
+
+.hooks/* text eol=lf

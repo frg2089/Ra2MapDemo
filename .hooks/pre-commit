@@ -1,0 +1,12 @@
+#! /bin/bash
+./inime.exe expand
+
+git update-index --no-assume-unchanged *.map
+git update-index --no-assume-unchanged *.map.IsoMapPack5
+git update-index --no-assume-unchanged *.map.OverlayDataPack
+git update-index --no-assume-unchanged *.map.OverlayPack
+
+git add *.map
+git add *.map.IsoMapPack5
+git add *.map.OverlayDataPack
+git add *.map.OverlayPack
